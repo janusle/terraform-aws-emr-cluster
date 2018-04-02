@@ -45,13 +45,13 @@ variable "instance_groups" {
   type = "list"
 }
 
-variable "bootstrap_name" {}
+#variable "bootstrap_name" {}
 
-variable "bootstrap_uri" {}
+#variable "bootstrap_uri" {}
 
-variable "bootstrap_args" {
-  default = []
-  type    = "list"
-}
+#variable "bootstrap_args" {
+#  default = []
+#  type    = "list"
+#}
 
 variable "log_uri" {}
